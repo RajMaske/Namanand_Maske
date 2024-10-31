@@ -1,0 +1,49 @@
+    <section class="section certifications" id="certifications">
+        <div class="container">
+            <div class="section-box">
+                <div data-aos="fade-up" data-aos-duration="1000">
+                    <h3 class="section-title">
+                        <span class='n-section-title'>03.</span> {{ "Certifications.Title" | translate }}
+                    </h3>
+                </div>
+
+                <div *ngFor='let certification of "Certifications.Items" | translate; let i = index' class="d-flex proyect-container" data-aos="fade-up" data-aos-duration="1000">
+
+                    <div class="img-feature-proyect-container">
+                        <div class="img-feature-proyect-box">
+                            <div class="img-container">
+                                <img class='img-feature-proyect rounded' [src]="certification.Imgs[0]" [alt]="certification.Title">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div [class.proyect-info-right]='i % 2 == 0' [class.proyect-info-left]='i % 2 != 0' class="h-100">
+                        <div class="proyect-box">
+                            <h4 [class.text-left]='i % 2 == 0' [class.text-left]='i % 2 != 0' class="feature-proyect">{{ "Certifications.Label" | translate }}</h4>
+                            <h5 [class.text-left]='i % 2 == 0' [class.text-left]='i % 2 != 0' class="proyect-name">{{ certification.Title }}</h5>
+
+                            <div class="proyect-description-box">
+                                <p class="mb-0" [innerHTML]="certification.Description.join(' ')"></p>
+                            </div>
+                            
+                          <!-- Display the Grade and Date -->
+                        <ng-container *ngIf="i !== 0">
+                            <p class="certification-grade highlight "style="color: #64ffda; font-weight: bold;">Grade: {{ certification.Grade }}</p>
+                            <p class="certification-date " style="color: #64ffda; font-weight: bold;">Date: {{ certification.Date }}</p>
+                        </ng-container>
+
+                            <ul [class.justify-content-end]='i % 2 == 0' [class.justify-content-start]='i % 2 != 0' class="proyect-skills">
+                                <li *ngFor='let technology of certification.Technologies' class="ml-3">
+                                    <span class="underline technology">{{ technology }}</span>
+                                </li>
+                            </ul>
+                            <div [class.text-left]='i % 2 == 0' [class.text-left]='i % 2 != 0' class="proyect-links">
+                                <a *ngIf="certification['DemoLink']" style='color: inherit' [href]="certification['DemoLink']" target="_blank"><i class="ml-3 fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        

@@ -1,0 +1,113 @@
+@import "./../../../../variables.scss";
+
+.certifications {
+    .proyect-container {
+        display: flex;
+        align-items: center;
+        margin: 50px 0;
+
+        .img-feature-proyect-container {
+            flex: 0 0 300px; // Increased width for larger images
+            margin-right: 20px; // Spacing between image and text
+            overflow: hidden;
+
+            img {
+                width: 100%;
+                height: auto; // Maintain aspect ratio
+                border-radius: 10px; // Rounded corners
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); // Add shadow for depth
+                transition: transform 0.3s; // Smooth hover effect
+
+                &:hover {
+                    transform: scale(1.05); // Scale on hover
+                }
+            }
+        }
+        
+        .certification-grade {
+            font-weight: bold;
+            color: $Green; // Change to your preferred highlight color
+            // Additional styles as needed
+        }
+        
+
+        .proyect-info-left,
+        .proyect-info-right {
+            flex: 1; // Allow text to fill remaining space
+            background-color: $LightNavy; // Use your color variable
+            padding: 20px;
+            border-radius: 10px; // Rounded corners
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); // Add shadow for depth
+
+            .feature-proyect {
+                font-size: 13px;
+                color: $Green;
+                margin-top: 10px;
+            }
+
+            .proyect-name {
+                font-size: 24px;
+                color: $LightestSlate;
+                margin: 10px 0;
+            }
+
+            .certification-grade, .certification-date {
+                font-size: 14px; // Font size for grade and date
+                color: $Slate; // Use your color variable
+                margin: 5px 0; // Spacing between lines
+            }
+
+            .proyect-description-box {
+                font-size: 16px;
+                color: $LightSlate;
+                margin-bottom: 15px;
+            }
+
+            .proyect-skills {
+                margin: 10px 0;
+                list-style: none;
+                display: flex;
+                flex-wrap: wrap;
+
+                li {
+                    margin-right: 10px;
+                    font-family: $CodeFont;
+                    font-size: 13px;
+                    color: $Slate;
+
+                    .technology {
+                        padding: 3px 5px;
+                        background-color: rgba(255, 255, 255, 0.2); // Background for technology tags
+                        border-radius: 5px;
+                    }
+                }
+            }
+
+            .proyect-links {
+                margin-top: 10px;
+
+                i {
+                    font-size: 22px;
+                    color: $Green;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 768px) {
+        .proyect-container {
+            flex-direction: column;
+
+            .img-feature-proyect-container {
+                margin-right: 0; // Reset margin for mobile view
+                margin-bottom: 20px; // Space below the image
+                flex: 0 0 100%; // Full width for mobile
+            }
+
+            .proyect-info-left,
+            .proyect-info-right {
+                width: 100%; // Full width on mobile
+            }
+        }
+    }
+}
