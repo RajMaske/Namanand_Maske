@@ -1,0 +1,212 @@
+{
+    "Header.Item1": "About me",
+    "Header.Item2": "Experience",
+    "Header.Item3": "Projects",
+    "Header.Item4": "Contact",
+    "Header.Item5": "Certifications",
+    "Header.cvBtn": "Resume",
+    "Header.cvName": "Namanand_CV.pdf",
+    "Banner.Pretitle": "Hello! My name is",
+"Banner.Description": "I have <span class='underline'>2 years of experience</span> in developing websites and backend systems using Spring Boot. I am currently working at RNInfosys in Narhegaon, Pune, for the past <span class='underline'>9 months</span>, where I have built three mobile applications and contributed to three projects using skills like <span class='underline'>Java, Angular, MySQL, and Android</span>. My technical skills also include <span class='underline'>JavaScript, C#, HTML, CSS, Bootstrap, Tailwind CSS</span>, as well as experience with tools like <span class='underline'>Eclipse, IntelliJ IDEA, Visual Studio, Maven, and Git</span>. I have experience in database management with <span class='underline'>Oracle and MySQL</span> and frameworks such as <span class='underline'>React.js, Spring MVC, Spring Boot, and Hibernate</span>. I am committed to writing and refactoring clean, reusable, and scalable code while adhering to best practices and development standards.",
+    "Banner.ActionBtn": "Get in touch",
+    "AboutMe.Title": "About me",
+   "AboutMe.Paragraphs": [
+    "In my <span class='underline'>2 years as a developer</span>, I seek to learn and grow every day. I have experience in developing websites and backend systems using <span class='underline'>Spring Boot</span>, as well as building mobile applications at RNInfosys, where I've contributed to various projects using <span class='underline'>Java, Angular, MySQL, and Android</span>.",
+    "I focus on implementing system improvements, optimizing applications, and standardizing patterns to enhance project value.",
+    "I have completed several courses, including <span class='underline'>Full Stack Java Development</span>, <span class='underline'>C Programming</span>, <span class='underline'>Java Programming</span>, and <span class='underline'>Spring Framework</span>."
+]
+
+,
+    "Experience.Title": "Experience",
+  "Experience.Jobs": [
+    {
+        "Tab": "RNInfosys",
+        "Title": "Full Stack Developer",
+        "Date": "January 2024 - Present",
+        "Description": [
+            "Developed and deployed three Android applications, enhancing mobile user experiences and meeting client specifications.",
+            "Built web applications using Angular for the frontend, integrating with Spring Boot and MySQL on the backend to provide robust, scalable solutions.",
+            "Collaborated closely with team members to design and implement complex business logic and database models.",
+            "Optimized system performance through back-end improvements and front-end optimizations, reducing load times and increasing app stability.",
+            "Participated in code reviews, troubleshooting, and testing to ensure high-quality product releases."
+        ]
+    }
+]
+,
+    "FeatureProjects.Title": "My Contributions to Company Projects",
+    "FeatureProjects.Label": "Featured Project",
+    "FeatureProjects.Projects": [
+        {
+            "Title": "My School ",
+            "Description": [
+                "A Next Generation School Management System application made from scratch with an <span class='underline'>auth module</span>, <span class='underline'>configurable graphics</span>, <span class='underline'>configurable alarms</span>, and <span class='underline'>user management</span>. It also has <span class='underline'>feedback form logic for parameter configuration</span>.",
+                "Created both Android and web applications for the system, handling tasks like <span class='underline'>admission</span>, <span class='underline'>TC</span>, <span class='underline'>bonafide certification</span>, <span class='underline'>attendance</span>, and <span class='underline'>fee management</span>.",
+                "Utilized <span class='underline'>Angular</span> for the web frontend and <span class='underline'>Spring Boot</span> with <span class='underline'>MySQL</span> for the backend, ensuring a robust and scalable system.",
+                "Led the integration of core functionalities, improving adaptability and efficiency in school operations."
+            ],
+              "imgs": [
+                "assets/images/school/image1.png",
+                "assets/images/school/image2.png",
+                "assets/images/school/image3.png"
+            ],
+            "demoLink":"http://www.rninfosys.com//",
+            "Technologies": [
+                "Angular",
+                "CSS",
+                "Angular Material",
+                "RxJS",
+                "Bootstrap",
+                "Java",
+                "SpringBoot",
+                "My Sql",
+                "NgRx"
+            ]
+        },
+        {
+            "Title": "MY BET",
+            "Description": "My Bet is a Satta Matka app where users can participate in betting games with a user-friendly interface. It includes <span class='underline'>live chat</span>, <span class='underline'>betting history</span>, <span class='underline'>notifications via SMS and email</span>, <span class='underline'>secure user authentication</span>, and <span class='underline'>integrated payment gateway for secure transactions.</span>",
+              "imgs": [
+                "assets/images/bbm/image1.png",
+                "assets/images/bbm/image2.png",
+                "assets/images/bbm/image4.png",
+                "assets/images/bbm/image3.png"
+            ],
+            "demoLink":"http://103.168.19.63:83/",
+            "Technologies": [
+                "Angular",
+                "CSS",
+              "SpringBoot",
+              "My Sql"
+            ]
+        },
+        {
+            "Title": " ERP",
+            
+                "Description": "This ERP system is built to empower product and service-based companies by seamlessly managing <span class='underline'>inventory</span>, <span class='underline'>sales</span>, <span class='underline'>purchasing</span>, and <span class='underline'>customer relationships</span>. It includes a comprehensive <span class='underline'>authentication module</span>, <span class='underline'>customizable dashboards for real-time analytics</span>, <span class='underline'>automated alerts</span>, <span class='underline'>user and role management</span>, and <span class='underline'>geolocation features with OpenLayers</span>. This ERP enables companies to streamline operations, optimize resources, and enhance customer satisfaction.",
+ 
+              
+            "imgs": [
+                "assets/images/mazhr/image1.png",
+                "assets/images/mazhr/image2.png",
+                "assets/images/mazhr/image3.png",
+                "assets/images/mazhr/image4.png",
+                "assets/images/mazhr/image5.png",
+                "assets/images/mazhr/image6.png",
+                "assets/images/mazhr/image7.png"
+            ],
+            "demoLink":"http://103.168.19.63:84/",
+            "Technologies": [
+                "Angular",
+                "CSS",
+              "SpringBoot",
+              "My Sql"
+            ]
+        },
+        {
+            "Title": "My Universal Service",
+            "Description": "This platform is a comprehensive marketplace where users can <span class='underline'>book any type of service</span>, from home repairs to professional consultations, while also offering <span class='underline'>e-commerce capabilities</span> for administrators to sell a wide variety of products. The platform includes a user-friendly <span class='underline'>service booking system</span>, <span class='underline'>secure payment integration</span>, <span class='underline'>order tracking</span>, <span class='underline'>real-time notifications</span>, and <span class='underline'>robust admin tools</span> for inventory and service management.",
+            "imgs": [
+                "assets/images/universal/image1.png",
+                "assets/images/universal/image2.png",
+                "assets/images/universal/image3.png"
+            ],
+            "demoLink": "https://drive.google.com/file/d/11XJ-GEGBw_4cKHZuAogt-6u0nPQInTfl/view?usp=sharing",
+            "Technologies": [
+                "Android"
+            ]
+        }
+    ],
+    "OtherProjects.Title": "personal projects",
+    "OtherProjects.Projects": [
+        {
+            "Title": "PulseGuard Tailwind Network",
+            "Description": "PulseGuard Tailwind Network connects blood donors with those in need by allowing donors to register their blood type, location, and availability.",
+            "ghLink": "https://github.com/mufeez1/carona19-tracker",
+            "demoLink": "https://blood-bank-management-five.vercel.app/",
+            "Technologies": [
+                "SpringBoot",
+                "JSP",
+                "Java",
+                "Oracle"
+            ]
+        },
+        {
+            "Title": "Delicious Eats",
+            "Description": "Delicious Eats is a website designed to manage restaurant orders efficiently.",
+
+            "ghLink": "delicious-eats-ten.vercel.app",
+            "Technologies": [
+              "SpringBoot",
+                "JSP",
+                "Java",
+                "Oracle"
+            ]
+        }
+    ],
+    
+        "Certifications": {
+          "Title": "My Certifications",
+          "Label": "Certifications",
+          "Items": [
+            {
+              "Title": "Full Stack Java Development",
+              "Description": [
+                "Comprehensive training in <span class='underline'>Full Stack Development</span>, focusing on Java technologies, including both frontend and backend development.",
+                "Developed RESTful APIs and worked with databases, enhancing practical skills in software development."
+              ],
+              "Imgs": [
+                "assets/images/certifications/fullstack-java.png"
+              ],
+              "DemoLink": "http://www.nareshit.com/",
+              "Technologies": [
+                "Java",
+                "Spring Boot",
+                "Hibernate",
+                "Angular",
+                "MySQL"
+              ]
+            },
+            {
+              "Title": "C Programming",
+              "Description": [
+                "Mastered the fundamentals of <span class='underline'>C programming</span>, with a focus on data structures and algorithms.",
+                "Completed projects that demonstrated proficiency in algorithm design and problem-solving."
+              ],
+              "Imgs": [
+                "assets/images/certifications/c-programming.png"
+              ],
+              "Date": "Jan 2024",
+              "Grade": "Grade A - Excellent (88%)"
+            },
+            {
+              "Title": "Java Programming",
+              "Description": [
+                "Completed advanced <span class='underline'>Java programming</span> training, emphasizing object-oriented principles and design patterns.",
+                "Worked on multiple projects to build robust Java applications."
+              ],
+              "Imgs": [
+                "assets/images/certifications/java-programming.png"
+              ],
+              "Date": "Jan 2024",
+              "Grade": "Grade A - Excellent (97%)"
+            },
+            {
+              "Title": "Spring Framework",
+              "Description": [
+                "Gained expertise in the <span class='underline'>Spring Framework</span>, focusing on building scalable applications.",
+                "Hands-on projects included creating web applications using Spring MVC and Spring Boot."
+              ],
+              "Imgs": [
+                "assets/images/certifications/spring.png"
+              ],
+              "Date": "Jan 2024",
+              "Grade": "Grade A - Genius (100%)"
+            }
+          ]
+        }
+        ,      
+    "Contact.Pretitle": "What’s Next",
+    "Contact.Title": "Get in touch!",
+    "Contact.Content": "I will be happy to receive your contact if you want to talk about new opportunities. Write me, and I will reply as soon as I see your message. Simple one-page design that features a profile letter with basic information about a person.",
+    "Contact.Btn": "Say Hello"
+}
